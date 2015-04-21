@@ -19,3 +19,5 @@ After all the matches were transferred to LSST standard flux, then I made histog
 
 It may be seen here that there are point sources that do not seem to be part of background noise that only LSST's programs have caught, ones that may be viable Trans-Neptunian Objects (TNOs). There are some issues with the background subtracting that are to be addressed in later runs on the image.
 
+Plots of the SNR ratios were made for the LSST catalog, since the error in flux reading was known. Using curvefit, the fit was found to be ~flux^(1/2). Knowing that the matt and JMP catalogs are on the same images, it may be possible that the SNR for matt and JMP has the same corellation. Under that assumption, I plotted the SNR of LSST, matt and JMP, using the matt and jmp detections that are within a 1.5 pixel tolerance of each other. The histogram may be viewed in the issues section. 
+
